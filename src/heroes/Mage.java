@@ -13,7 +13,7 @@ public class Mage extends Hero {
 
     @Override
     public void attack() {
-        energy -= 3;
+        energy-=3;
     }
 
 }
