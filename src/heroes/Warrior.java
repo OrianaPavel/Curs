@@ -6,12 +6,12 @@ public class Warrior extends Hero{
     }
 
     @Override
-    public void takeDamage() {
+    public void doTakeDamage() {
         life -= 3;
     }
 
     @Override
-    public void attack() {
+    public void doAttack() {
         energy --;
     }
 }
